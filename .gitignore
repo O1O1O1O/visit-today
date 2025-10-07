@@ -1,0 +1,7 @@
+# Ignore node build artifacts
+node_modules/
+package-lock.json
+package.json
+manifest.json
+# Ignore IDE specific files
+.idea/

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Visit today",
+  "version": "1.3",
+  "description": "Visit current page or link on archive.today via context menu or toolbar icon.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "type": "module"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+    },
+    "default_title": "Visit on archive.today"
+  }
+}
